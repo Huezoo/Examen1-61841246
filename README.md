@@ -11,3 +11,7 @@ Se lleno el archivo main router y las exportaciones se pusieron en el index
 Se agrego contenido placeholder en las pantallas de lista y noticias para poder testear
 
 Se comenzo a agregar la importacion de informacion desde un json, se creo el modelo, repositorio y el servicio para extraer y convertir informacion guardada en el archivo lista.json que se encuentra en la caprta assets/documents
+
+Se logro completar la conexion al archivo json correctamaente!
+
+Se agrego el codigo y logica para las card en la pantalla de noticias usando imagenes online e imagenes locales.
