@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:examen1/presentation/screens/index.dart';
 
@@ -6,7 +5,7 @@ import 'package:examen1/presentation/screens/index.dart';
 final mainRouter = GoRouter( 
   initialLocation: '/home', routes: [
     GoRoute(
-      path: 'home',
+      path: '/home',
       builder: (context, state) => const HomeScreen(),
       name: 'home',
     ),

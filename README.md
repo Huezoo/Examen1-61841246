@@ -7,3 +7,5 @@ Se aGregaron los archivos en blanco para las pantallas principales, el router y 
 Se importo una imagen desde la red en el home_content.dart 
 
 Se lleno el archivo main router y las exportaciones se pusieron en el index
+
+Se agrego contenido placeholder en las pantallas de lista y noticias para poder testear
