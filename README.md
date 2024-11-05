@@ -1,3 +1,4 @@
-# examen1
+Se subio el proyecto en blanco
 
-A new Flutter project.
+Se procedio a crear la estructura de carpetas siguiendo la arquitectura clean
+
