@@ -1,11 +1,11 @@
 class Lista {
   final String titulo;
   final String descripcion;
-  final String? fecha_objetivo;
+  final String fecha_objetivo;
 
 
   Lista(this.titulo,
-      {required this.descripcion, this.fecha_objetivo});
+      {required this.descripcion, required this.fecha_objetivo});
 
   factory Lista.fromJson(Map<String, dynamic> json) => Lista(
         json["titulo"],

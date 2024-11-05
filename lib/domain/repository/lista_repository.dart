@@ -8,8 +8,8 @@ class ListaRepository {
   Future<List<Lista>> getAllLista() async{
     List<Lista> response = [];
     final listaJson = await rootBundle.loadString(pathAssets);
-    final List<dynamic> lista = json.decode(listaJson);
-    response = lista.map((e) => Lista.fromJson(e)).toList();
+    final List<dynamic> listas = json.decode(listaJson);
+    response = listas.map((e) => Lista.fromJson(e)).toList();
     return response;
   }
 

@@ -1,3 +1,4 @@
+import 'package:examen1/presentation/screens/Lista/widgets/lista_list.dart';
 import 'package:flutter/material.dart';
 
 class ListaScreen extends StatelessWidget {
@@ -7,10 +8,10 @@ class ListaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Registro Screen'),
+        title: const Text('Listas'),
       ),
-      body: const Center(
-        child: Text('Registro Screen'),
+      body: Center(
+        child: listaList(),
       ),
     );
   }
