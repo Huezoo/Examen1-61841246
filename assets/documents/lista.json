@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "Hacer la compra",
+        "descripcion": "comprar tomates, cebolla y chile dulce",
+        "fecha_objetivo": "12/12/2024"
+    },
+    {
+        "titulo": "Ir a depositar",
+        "descripcion": "ir a hacer un deposito al banco",
+        "fecha_objetivo": "20/11/2024"
+    },
+    {
+        "titulo": "Organizar la ropa",
+        "descripcion": "Organizar el ropero",
+        "fecha_objetivo": "23/11/2024"
+    }
+]
